@@ -33,13 +33,13 @@ class User extends Model
 ## Usage
 
 ```php
-    $model->link(); // Link for the resource (example: https://your-site.com/user/7)
+$model->link(); // Link for the resource (example: https://your-site.com/user/7)
 
-    $model->sublink('edit'); // SubLink for the resource (example: https://your-site.com/user/7/edit)
+$model->sublink('edit'); // SubLink for the resource (example: https://your-site.com/user/7/edit)
     
-    $model->sublink('photos.show', ['photo_id' => 1234]); // SubLink for the resource (example: https://your-site.com/user/7/photos/1234)
+$model->sublink('photos.show', ['photo_id' => 1234]); // SubLink for the resource (example: https://your-site.com/user/7/photos/1234)
     
-    $model->redirect(); // Generates a redirect response to the resource to use in a controller return statement.
+$model->redirect(); // Generates a redirect response to the resource to use in a controller return statement.
     
-    $model->sublinkRedirect('edit'); // Generates a redirect response to the resource's edit page to use in a controller return statement.
+$model->sublinkRedirect('edit'); // Generates a redirect response to the resource's edit page to use in a controller return statement.
 ```
