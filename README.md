@@ -24,7 +24,7 @@ class User extends Model
     public function sublink(string $key, array $attr = []) : string
     {
         return route("users.$key", [
-                'user_id' => $this->id,
+                'user_id' => $this->id, // 'user_id' is the name of the parameter in the users.* route group
                 ] + $attr);
     }
 }
