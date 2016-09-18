@@ -3,14 +3,12 @@
 namespace TomSchlick\Linkable;
 
 /**
- * Class Linkable
- *
- * @package TomSchlick\Linkable;
+ * Class Linkable.
  */
 trait Linkable
 {
     /**
-     * Link directly to the resource
+     * Link directly to the resource.
      *
      * @return string
      */
@@ -20,7 +18,7 @@ trait Linkable
     }
 
     /**
-     * Link to a sub-item of the resource
+     * Link to a sub-item of the resource.
      *
      * @param string $key
      * @param array $attr
@@ -30,7 +28,7 @@ trait Linkable
     abstract public function sublink(string $key, array $attr = []) : string;
 
     /**
-     * Redirect directly to the resource
+     * Redirect directly to the resource.
      *
      * @return \Illuminate\Http\RedirectResponse
      */
@@ -40,7 +38,7 @@ trait Linkable
     }
 
     /**
-     * Redirect to a sub-item of the resource
+     * Redirect to a sub-item of the resource.
      *
      * @param string $key
      * @param array $attr
