@@ -3,12 +3,7 @@
 --------
 Linkable allows you to bind named routes directly to your Eloquent models. 
 
-Making calls to `route()` each time you need to generate a url can be cumbersome and makes your Blade files unreadable.
-```php
-    route('route.name', ['id' => $model->id])
-```
-
-Instead with Linkable, you can use this syntax to generate a url: 
+Making calls to `route()` each time you need to generate a url can be cumbersome and makes your Blade files unreadable. Instead with Linkable, you can use this syntax to generate a url: 
 ```php
     $model->link()
 ```
