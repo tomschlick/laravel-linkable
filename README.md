@@ -1,7 +1,7 @@
 # Laravel Linkable
 [![StyleCI](https://styleci.io/repos/68492905/shield)](https://styleci.io/repos/68492905) [![Build Status](https://travis-ci.org/tomschlick/laravel-linkable.svg)](https://travis-ci.org/tomschlick/laravel-linkable) [![Latest Stable Version](https://poser.pugx.org/tomschlick/laravel-linkable/v/stable)](https://packagist.org/packages/tomschlick/laravel-linkable) [![Total Downloads](https://poser.pugx.org/tomschlick/laravel-linkable/downloads)](https://packagist.org/packages/tomschlick/laravel-linkable) [![License](https://poser.pugx.org/tomschlick/laravel-linkable/license)](https://packagist.org/packages/tomschlick/laravel-linkable)
 --------
-Linkable allows you to bind named routes directly to your Eloquent models. 
+Linkable allows you to bind named routes directly to your Eloquent models. It has been tested with Laravel 5.0 and above (although it may work on older versions as well).
 
 Making calls to `route()` each time you need to generate a url can be cumbersome and makes your Blade files unreadable. Instead with Linkable, you can use this syntax to generate a url: 
 ```php
