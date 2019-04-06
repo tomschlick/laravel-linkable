@@ -3,17 +3,21 @@
     "description": "URL binding for Laravel models",
     "type": "library",
     "require": {
-        "php": "^7.0",
+        "php": "^7.1",
         "laravel/framework": "^5.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.5"
+        "doctrine/dbal": "^2.9",
+        "larapack/dd": "^1.0",
+        "mockery/mockery": "~1.0",
+        "orchestra/testbench": "^3.7",
+        "phpunit/phpunit": "^7.0"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Tom Schlick",
-            "email": "tom@tomschlick.com"
+            "email": "tom@schlick.email"
         }
     ],
     "minimum-stability": "stable",
