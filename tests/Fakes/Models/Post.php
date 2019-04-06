@@ -15,7 +15,7 @@ class Post extends Model
      * Link to a sub-item of the resource.
      *
      * @param string $key
-     * @param array $attr
+     * @param array  $attr
      *
      * @return mixed
      */

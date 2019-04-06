@@ -27,7 +27,7 @@ abstract class TestCase extends Orchestra
         $routes = [];
 
         /** @var \Illuminate\Routing\Route $route */
-        foreach(Route::getRoutes() as $route) {
+        foreach (Route::getRoutes() as $route) {
             $routes[$route->getName()] = $route->getActionMethod();
         }
 

@@ -21,7 +21,7 @@ trait Linkable
      * Link to a sub-item of the resource.
      *
      * @param string $key
-     * @param array $attr
+     * @param array  $attr
      *
      * @return mixed
      */
@@ -41,7 +41,7 @@ trait Linkable
      * Redirect to a sub-item of the resource.
      *
      * @param string $key
-     * @param array $attr
+     * @param array  $attr
      *
      * @return \Illuminate\Http\RedirectResponse
      */

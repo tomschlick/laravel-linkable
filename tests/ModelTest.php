@@ -1,6 +1,5 @@
 <?php
 
-
 namespace TomSchlick\Linkable\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
