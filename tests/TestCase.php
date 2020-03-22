@@ -10,7 +10,7 @@ abstract class TestCase extends Orchestra
     /**
      * SetUp.
      */
-    protected function setUp() : void
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -22,7 +22,7 @@ abstract class TestCase extends Orchestra
     /**
      * @param string $name
      */
-    public function assertHasRoute(string $name) : void
+    public function assertHasRoute(string $name): void
     {
         $routes = [];
 

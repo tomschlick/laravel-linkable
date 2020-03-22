@@ -12,7 +12,7 @@ trait Linkable
      *
      * @return string
      */
-    public function link() : string
+    public function link(): string
     {
         return $this->sublink('show');
     }
@@ -25,7 +25,7 @@ trait Linkable
      *
      * @return mixed
      */
-    abstract public function sublink(string $key, array $attr = []) : string;
+    abstract public function sublink(string $key, array $attr = []): string;
 
     /**
      * Redirect directly to the resource.
