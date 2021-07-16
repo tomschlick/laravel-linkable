@@ -10,7 +10,7 @@
         "doctrine/dbal": "^2.9",
         "larapack/dd": "^1.0",
         "mockery/mockery": "~1.0",
-        "orchestra/testbench": "^5.0",
+        "orchestra/testbench": "^5.0 || ^6.0",
         "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
     },
     "license": "MIT",
